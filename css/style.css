@@ -1,0 +1,217 @@
+/* CSS reset */
+
+@media screen and (max-width: 998px) {
+  
+
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1520px) {
+
+}
+
+.reset {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 1200px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0 auto;
+}
+
+
+body {
+
+    background-color: rgb(226, 43, 186);
+}
+
+header {
+    background-color: rgb(0, 0, 0);
+    height:107px;
+    width: 1200px;
+    display:flex;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+
+.cabecalho {
+    width: 1200px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+    justify-content: space-between;
+}
+
+
+.menu {
+    display: flex;
+    justify-content: space-around;
+    width: 850px;
+}
+
+
+.menu a {
+    text-transform:uppercase;
+    font-weight: bold;
+    color: #E001CD;
+    text-decoration: none;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif, "Helvetica Neue", Helvetica, sans-serif;
+}
+
+.menu a:hover {
+    color: aqua;
+}
+
+.banner {
+    background-image: url(../img/fundo-banner.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 450px;
+}
+
+
+
+.conteudo-banner a {
+    text-decoration: none;
+}
+
+.conteudo-banner {
+    width: 495px;
+    height: 300px;
+    
+    display: flex;
+    flex-direction: column;
+    align-items:flex-end;
+    justify-content: space-between;   
+   
+}
+
+.conteudo-banner h1 {
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: bold;
+    font-size: 40px;
+    color:#E001CD
+}
+
+.conteudo-banner p {
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    color:#E001CD;
+    text-transform: capitalize;
+}
+
+.conteudo-banner a {
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    color:antiquewhite;
+    background-color:#E001CD;
+    border-style: groove;
+}
+
+.conteudo-banner a:hover {
+    color: aqua;
+    background-color: black;
+}
+
+.posicionamento-banner {
+    justify-content: left;
+    
+}
+
+.jogos {
+    align-items: center;
+}
+
+.posicionamento-jogos {
+    height: 150px;
+    background-image: radial-gradient(#E001CD, #000000);
+    padding-top: 10px;
+}
+
+.posicionamento-jogos img {
+    border: 3px solid #E001CD;
+    border-radius: 4px;
+    padding: 2px;
+    width: 100px;
+    align-self: start;
+    
+}
+
+.ofertas-titulo {
+    text-transform: uppercase;
+    letter-spacing: 7px;
+    background-position: center;
+    font-size: 20px;
+    background-color: #000000;
+    color:#E001CD;
+    
+}
+
+.produto {
+    border: 3px solid black;
+    padding: 10px;
+    margin: 10px;
+    color: antiquewhite;
+    background-image: radial-gradient(#E001CD, #000000);
+    
+}
+
+.promocoes img {
+    width: 200px;
+   
+}
+
+.promocoes p {
+
+
+}
+
+.preco {
+    font-weight: 600;
+    font-size: 30px;
+}
+
+.secao-sobre img {
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 5px;
+    width: 150px;
+}
+
+.logo-rodape {
+    background-color: #000000;
+}
+
+.siga-nos img {
+    padding: 5px;
+    width: 30px;
+}
+
+/*
+p{
+    font: italic bold 30px arial, sans-serif;
+}
+
+.logo {}
+
+.banner-f1 {
+    
+}
+.itens-banner {
+    display: flex;
+    height: 100%;
+}
+
+.container-grid {
+    width: 1200;
+    margin: 0 auto;
+}
