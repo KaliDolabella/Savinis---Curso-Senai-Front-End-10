@@ -230,8 +230,19 @@ header {
     color: antiquewhite;
 }
 
+footer {
+    background-color: #000000;
+    color:#E001CD;
+
+}
+
+footer a {
+    text-decoration: none;
+}
+
 .logo-rodape {
     background-color: #000000;
+    
 }
 
 .siga-nos img {
